@@ -7,10 +7,41 @@
   }
   body{
       font-family: Tangerine;
+      color:whitesmoke;
+      background-color:black;
   }
   #header{
-      padding-bottom: 10px;
+      padding: 10px;
+      font-size: 100px;
   }
   #fccStatus{
-      font-size: -3em;
+      font-size: 2em;
+     
   }
+  a{
+      color:whitesmoke;
+  }
+  img{
+      width:50%;
+      height: 50%;
+      border-radius: 50%;
+  }
+  .row{
+      margin-bottom:  5%;
+      border-style:outset;
+      border-radius:10%;
+      border-color:whitesmoke;
+      padding:2%;
+      font-size: 1em;
+  }
+  .row:hover{
+      background-color: 	rgb(48,0,0);
+      color:wheat;
+      transition: ease all 2s;
+      border-color:black;
+  }
+  #header:hover{
+      color:red;
+      transition: all ease-in 2s;
+  }
+  
