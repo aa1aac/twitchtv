@@ -33,7 +33,7 @@ $.get(url)
     user=arr[i];
   var apiUrl="https://wind-bow.glitch.me/twitch-api/channels/"+user;
   $.getJSON(apiUrl,function(data2){
-    $("#followerinfo").append('<div class='+'"'+'row">'
+    $("#followerinfo").append('<div class='+'"'+'row" id="row">'
     +'<div class="'+'col-lg-4 col-md-4 col-sm-4 col-xs-4 col-4" >'+
           '<h1><img src='+'"'+data2.logo+'">'+'</h1>'+
        '</div>'
